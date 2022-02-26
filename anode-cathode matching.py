@@ -48,7 +48,6 @@ def getCouples(anodes, cathodes, matching):
 
 def main():
 
-    print("hallo")
     # Create graph
     graph = csr_matrix(getMatrix(anodes, cathodes))
 
